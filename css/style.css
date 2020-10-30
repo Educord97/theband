@@ -260,9 +260,7 @@ li {
     grid-template-columns: repeat(auto-fit,minmax(150px, 3fr)); 
 
 }
-    .gallery-card {
-        
-    }
+
     
     .img-card {
         width: 150px;
@@ -306,8 +304,24 @@ li {
     .icon-three {
         margin: 0;
         }
-
     
+}
+
+@media screen and (max-width: 500px) {
+
+    #text_area {
+        width: 100%;
+    }
+
+    .contact {
+        margin-left: -10px;
+    }
+
+    .band-text {
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+    }
 }
 
 
