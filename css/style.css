@@ -1,340 +1,243 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 html {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-img {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    }
+    img {
     max-width: 100%;
-}
-
-
-.container{
+    }
+    .container{
     margin-right: auto;    
     margin-left: auto;
     margin-top: 30px;
     padding-left: 1em;
     padding-right: 1em;
-   
-    
-  
-}
-
-
-.search-icon {
+    }
+    .search-icon {
     color: black;
-    
-}
-
-
-/*Navbar*/
-
-
-nav {
+    }
+    /*Navbar*/
+    nav {
     background: black;
-    
-}
-
-nav a {
+    }
+    nav a {
     text-transform: uppercase;
-}
-
-.dropdown-menu {
+    }
+    .dropdown-menu {
     background: white;
-}
-
-.dropdown-menu:hover {
+    }
+    .dropdown-menu:hover {
     color: black;
-}
-
-.dropdown-item:hover {
+    }
+    .dropdown-item:hover {
     color: black;
     background: #ccc;
-}
-
-
-/*Carousel Slider*/
-
-/*
-.caption-div {
+    }
+    /*Carousel Slider*/
+    /*
+    .caption-div {
     margin-bottom: 7em;
-}
-
-*/
-
-/*Section The Bands & Cards*/
-
-.band-title {
+    }
+    */
+    /*Section The Bands & Cards*/
+    .band-title {
     text-align: center;
     text-transform: uppercase;
     font-weight: 400;
     font-size: 27px;
     letter-spacing: 2px;
     margin-top: 2em;    
-}
-
-.band-caption {
+    }
+    .band-caption {
     text-align: center;
     font-style: italic;
     color: #5F9EA0;
     margin-top: 1em;
-   
-}
-
-.band-text {
+    }
+    .band-text {
     text-align: center;
-  
-}
-
-/*Cards*/
-
-.photo img {
+    }
+    /*Cards*/
+    .photo img {
     margin-bottom: 1em;
-  
-}
-.photo-align {
+    }
+    .photo-align {
     text-align: center;
-}
-
-
-/*Section Tour Dates*/
-
-.tour {
+    }
+    /*Section Tour Dates*/
+    .tour {
     background: black;
     padding: 2em;
     margin-top: 4em;
-}
-
-.sold-p {
+    }
+    .sold-p {
     background: #fff;
     margin-bottom: 2em;
- 
-}
-
-.title-tour {
+    }
+    .title-tour {
     text-align: center;
     color: #eee;
     text-transform: uppercase;
     font-weight: 400;
     font-size: 27px;
-}
-
-.subtitle-tour {
+    }
+    .subtitle-tour {
     text-align: center;
     color: #ccc;
     font-style: italic;
-}
-
-.month-sold {
+    }
+    .month-sold {
     border-bottom: 2px solid #5F9EA0;
     color: #66CDAA;
-}
-
-.september {
+    }
+    .september {
     padding: 17px 0px 0px;
-}
-
-.icon-three {
-   background: black;
+    }
+    .icon-three {
+    background: black;
     padding: 2px 8px;
     border-radius: 20px;
     font-weight: 500;
     float: right;
     margin-left: 20em;
-}
-
-/*Cards City*/
-
-.card-city {
+    }
+    /*Cards City*/
+    .card-city {
     margin-bottom: 1em;
-}
-
-
-
-/*Contact*/
-
-.contact {
+    }
+    /*Contact*/
+    .contact {
+    display: -ms-grid;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     text-align: center;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     padding: 5em;
-     
-}
-
-.title-contact {
+    }
+    .title-contact {
     font-weight: 400;
     text-transform: uppercase;
     font-size: 27px;
     letter-spacing: 2px;
-}
-
-.caption-contact {
+    }
+    .caption-contact {
     text-align: center;
     font-style: italic;
     color: #5F9EA0;
-    
-}
-
-.contact-container {
+    }
+    .contact-container {
     display: inline-block;
     overflow: hidden;
     text-align: left;
     margin-right: 4em;
-    
-   
-}
-
-.contact-container ul {
+    }
+    .contact-container ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     padding: 20px;
     margin-bottom: 4em;
-}
-
-.contact-container li {
+    }
+    .contact-container li {
     margin-bottom: 5px;
     font-weight: 500;
-}
-
-.form-container {
+    }
+    .form-container {
     display: inline-block;
     margin-bottom: ;
     overflow: hidden;
-    
-           
-}
-
-.form-container form {
+    }
+    .form-container form {
     margin-bottom: 30px;
-  
-}
-
-input {
+    }
+    input {
     margin: 10px 5px;
-}
-
-.btn-form {
+    }
+    .btn-form {
     background: black;
     color: white;
     text-transform: uppercase;
     padding: 5px 10px;
     float: right;
-}
-
-
-
-/*Footer*/
-
-footer {
+    }
+    /*Footer*/
+    footer {
     padding: 4em;
     text-align: center;
     background: #eee;
-}
-
-li {
+    }
+    li {
     display: inline-block;
-    
-}
-
-.icon-footer {
+    }
+    .icon-footer {
     color: #696969;
-    
-}
-
-.text-f {
+    }
+    .text-f {
     margin-left: 50px;
     font-size: 16px;
     font-weight: 400;
-}
-
-/*Media Queries*/
-
-@media screen and (min-width: 700px) {
-    
-       
-   .container-card {  
+    }
+    /*Media Queries*/
+    @media screen and (min-width: 700px) {
+    .container-card {  
     margin-top: 4em;
     grid-gap: 0px;
+    display: -ms-grid;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(150px, 3fr)); 
-
-}
-
-    
+    }
     .img-card {
-        width: 150px;
+    width: 150px;
     }
-    
-    
-    
-}
-
-@media screen and (max-width: 900px) {
+    }
+    @media screen and (max-width: 900px) {
     .band-text {
-        text-align: left;
+    text-align: left;
     }
-    
-}
-
-@media screen and (max-width: 700px) {
+    }
+    @media screen and (max-width: 700px) {
     .form-container {
-        text-align: left;
-     
+    text-align: left;
     }
-    
     .form-container input {
-        width: 100%;
-        margin: 0;
+    width: 100%;
+    margin: 0;
     }
-    
     .form-container textarea {
-        margin-top: 15px;
+    margin-top: 15px;
     }
-    
     .contact-container {
-        text-align: left;
-          
+    text-align: left;
     }    
-     
-}
-
-@media screen and (max-width: 600px) {
-    
+    }
+    @media screen and (max-width: 600px) {
     .icon-three {
-        margin: 0;
-        }
-    
-}
-
-@media screen and (max-width: 500px) {
-
+    margin: 0;
+    }
+    }
+    @media screen and (max-width: 500px) {
     #text_area {
-        width: 100%;
+    width: 100%;
     }
-
     .contact {
-        margin-left: -10px;
+    margin-left: -10px;
     }
-
     .band-text {
-        margin-left: 20px;
-        margin-right: 20px;
-        text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
     }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    }
