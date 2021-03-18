@@ -230,14 +230,12 @@
 <script type="text/javascript">
    
    var clientID = '60534aa2f7ce182709316ee1';
-   var hostE = window.location.host;
+   var host = window.location.host;
    
-   if (hostE.startsWith("theband-by-edu.netlify.app") ) {
-     /* clientID = '60534b20f7ce182709316f1c'; */  
-      alert("site the band")
+   if (host.startsWith("theband-by-edu.netlify.app") ) {
+      host = 'https://tawk.to/chat/60534b20f7ce182709316f1c/1f12lqu8d';  
       } else {
-         alert("site 2")
-       /* clientID = '60534aa2f7ce182709316ee1'; */
+       host = 'https://tawk.to/chat/60534aa2f7ce182709316ee1/1f12ln3lp'; 
       }
       
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
